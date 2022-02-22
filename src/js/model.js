@@ -122,6 +122,10 @@ const clearBookmarks = function () {
 };
 // clearBookmarks();
 
+const newFeature = function () {
+  console.log('Welcome to the application.');
+};
+
 export const uploadRecipe = async function (newRecipe) {
   try {
     const ingredients = Object.entries(newRecipe)
